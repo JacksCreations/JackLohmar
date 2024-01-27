@@ -1,3 +1,5 @@
+
+
 .container-fluid{
     align-items: center;
     max-width: 1000px;
@@ -10,3 +12,33 @@ body{
     max-width: 1000px;
     
 }
+
+@font-face {
+    font-family: 'BebasKai'; /* Choose a name for your font */
+    src: url('/fonts/BebasKai.ttf') format('.ttf'); /* Update the path to your font file */
+    /* You can include additional font formats if needed, e.g., woff, ttf, eot */
+}
+
+@font-face {
+    font-family: 'BebasNeue'; /* Choose a name for your font */
+    src: url('/fonts/BebasNeue-Regular.ttf') format('.ttf'); /* Update the path to your font file */
+    /* You can include additional font formats if needed, e.g., woff, ttf, eot */
+}
+@font-face {
+    font-family: 'Oswald'; /* Choose a name for your font */
+    src: url('/fonts/Oswald-VariableFont_wght') format('.ttf'); /* Update the path to your font file */
+    /* You can include additional font formats if needed, e.g., woff, ttf, eot */
+}
+
+/* @font-face {
+    font-family: 'HeadingNow'; /* Choose a name for your font *
+    src: url('/fonts/HeadingNowTrial-44Regular.ttf') format('.ttf'); /* Update the path to your font file */
+    /* You can include additional font formats if needed, e.g., woff, ttf, eot *
+} */
+
+@font-face {
+    font-family: 'HeadingNow'; /* Choose a name for your font */
+    src: url('/fonts/HeadingNowTrial-55Medium.ttf') format('.ttf'); /* Update the path to your font file */
+    /* You can include additional font formats if needed, e.g., woff, ttf, eot */
+}
+
