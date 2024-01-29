@@ -54,6 +54,7 @@
     margin-right: 0px;
     padding: 0px;
     width: 100%;
+    
 }
 @media (min-width: 599px) {
     .navbar{
@@ -77,15 +78,21 @@
 }
 
 .navbar-brand{
-    position: absolute;
-    top: 10px; /* Adjust the top position as needed */
+    position: relative;
+    top: 0;
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
+    align-items: center;
+    text-align: center;
 
     letter-spacing: 2px;
     font-family: 'HeadingNow';
     font-size: clamp(28px, 4vw, 40px);
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
 }
 
 .navbar-toggler{
